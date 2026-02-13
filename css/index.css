@@ -17,14 +17,14 @@
 }
 
 .site-footer {
-    background-color: #0b3c91; /* Matches your hero blue */
-    color: white;              /* Makes the text readable */
-    padding: 2rem 0;           /* Adds space inside the footer */
-    margin-top: 4rem;          /* Pushes it away from the content above */
+    background-color: #0b3c91; 
+    color: white;              
+    padding: 2rem 0;           
+    margin-top: 4rem;          
 }
 
 .site-footer .container {
-    /* To match your hero alignment, use the same margin-left */
+   
     margin-left: 8rem;
     max-width: 500px;
 }
