@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balbuena Public Law Firm</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Balbuena Public Law</a>
+            <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <nav id="main-nav" class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" data-bg="assets/images/LadyJustice2.jpg">
+            <div class="container">
+                <h1>Balbuena Public Law Firm</h1>
+                <p>Trusted public law advice — clear, practical, and principled.</p>
+                <p class="hero-cta"><a class="btn" href="contact.html">Get a Consultation</a></p>
+            </div>
+        </section>
+
+        <section class="intro container">
+            <h2>Our Approach</h2>
+            <p>We provide strategic legal advice on administrative law, public procurements, regulatory matters, and public policy. Our team focuses on pragmatic solutions and clear communication.</p>
+        </section>
+
+        <section class="services-preview container">
+            <h2>Services</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="assets/images/Administrative.jpg" alt="Administrative law">
+                    <h3>Administrative Law</h3>
+                    <p>Representation in regulatory proceedings and administrative appeals.</p>
+                    <a class="link" href="services.html">Learn more</a>
+                </article>
+                <article class="card">
+                    <img src="assets/images/publicprocurement.jpg" alt="Public procurement">
+                    <h3>Public Procurement</h3>
+                    <p>Guidance on procurement rules and bid challenges.</p>
+                    <a class="link" href="services.html">Learn more</a>
+                </article>
+                <article class="card">
+                    <img src="assets/images/policyandcomplience.jpg" alt="Policy advice">
+                    <h3>Policy & Compliance</h3>
+                    <p>Policy design, compliance assessments, and training.</p>
+                    <a class="link" href="services.html">Learn more</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-preview container">
+            <h2>Contact</h2>
+            <p>Prefer to talk? Send us a short message and we'll get back to you.</p>
+            <p><a class="btn" href="contact.html">Contact Us</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Balbuena Public Law Firm — All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="image-modal" class="image-modal" aria-hidden="true">
+        <div class="modal-inner">
+            <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+            <img id="modal-img" src="" alt="">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

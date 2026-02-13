@@ -1,0 +1,30 @@
+.hero .container {
+    position: relative;
+    z-index: 2;
+    text-align: left; 
+    
+   
+    margin-left: 8rem;  
+    margin-right: 0;    
+    
+    max-width: 500px;
+    width: 100%;    
+}
+
+.hero-cta {
+    text-align: left;
+    margin: 1rem 0 0 0; 
+}
+
+.site-footer {
+    background-color: #0b3c91; /* Matches your hero blue */
+    color: white;              /* Makes the text readable */
+    padding: 2rem 0;           /* Adds space inside the footer */
+    margin-top: 4rem;          /* Pushes it away from the content above */
+}
+
+.site-footer .container {
+    /* To match your hero alignment, use the same margin-left */
+    margin-left: 8rem;
+    max-width: 500px;
+}

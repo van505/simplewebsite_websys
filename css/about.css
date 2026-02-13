@@ -1,0 +1,51 @@
+/* 1. Hero Section (About Us Text & Colors) */
+.hero-about .container {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    margin-left: 8rem;  /* Main Left Margin Control */
+    margin-right: 0;      
+    max-width: 500px;
+    width: 100%;    
+}
+
+/* ADJUST "ABOUT US" COLORS SEPARATELY HERE */
+.hero-about h1 {
+    color: #ffffff; /* Change Title Color */
+    font-size: 2.5rem;
+}
+
+.hero-about p {
+    color: #f0f0f0; /* Change Description Color */
+    font-size: 1.1rem;
+}
+
+/* 2. Team & Values Sections */
+main .container {
+    text-align: left;
+    margin-left: 8rem; /* Keeps body text aligned with Hero */
+    margin-right: 0;      
+    max-width: 1000px;    
+}
+
+/* 3. Team Images - ADJUST WIDTH HERE */
+.team-img {
+    width: 100%;       /* Responds to card size */
+    max-width: 250px;  /* CHANGE THIS to adjust photo size */
+    height: auto;      /* Keeps proportions perfect */
+    border-radius: 8px;
+    display: block;
+}
+
+/* 4. Values Section (Fixed Margin Bug) */
+section h2, section ul {
+    margin-left: 8rem;    /* Changed to 0 because parent container already has 8rem */
+    text-align: left;
+    color: #333333;    /* Adjust Values text color here */
+}
+
+/* 5. Footer Alignment */
+.site-footer .container {
+    margin-left: 8rem;
+    margin-right: 0;
+}

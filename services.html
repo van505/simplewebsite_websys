@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Services — Balbuena Public Law Firm</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/services.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Balbuena Public Law</a>
+      <button id="nav-toggle-services" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav-services" class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Our Services</h1>
+    <p>We assist with a broad range of public law matters. Use the filters to narrow the list.</p>
+
+    <div class="filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="administrative">Administrative</button>
+      <button class="filter-btn" data-filter="procurement">Procurement</button>
+      <button class="filter-btn" data-filter="policy">Policy</button>
+    </div>
+
+    <div class="cards service-cards">
+      <article class="card" data-category="administrative">
+        <img src="assets/images/placeholder.svg" alt="Judicial review">
+        <h3>Judicial Review</h3>
+        <p>Challenges to administrative decisions and public body actions.</p>
+      </article>
+      <article class="card" data-category="procurement">
+        <img src="assets/images/placeholder.svg" alt="Bid disputes">
+        <h3>Procurement Disputes</h3>
+        <p>Bid protests, advisory opinions, and procedural remedies.</p>
+      </article>
+      <article class="card" data-category="policy">
+        <img src="assets/images/placeholder.svg" alt="Policy development">
+        <h3>Policy Development</h3>
+        <p>Drafting, stakeholder consultation, and regulatory impact assessments.</p>
+      </article>
+      <article class="card" data-category="administrative">
+        <img src="assets/images/placeholder.svg" alt="Licensing">
+        <h3>Licensing & Permits</h3>
+        <p>Advising on statutory frameworks and compliance for public licences.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-services"></span> Balbuena Public Law Firm</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
